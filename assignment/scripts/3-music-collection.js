@@ -67,6 +67,6 @@ function findByArtist(artist){
         return found;
     }
     }
-console.log('Find 8701 album from collection:' , findByArtist('Usher'));
+console.log('Find Usher album from collection:' , findByArtist('Usher'));
 console.log('Return an empty array:' , findByArtist('Train'));
 
