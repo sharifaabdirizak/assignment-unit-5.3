@@ -60,13 +60,13 @@ console.log('This is my record collection:' , collection);
 
 function findByArtist(artist){
       let found = [];
-         for (let i = 0; i < collection.length; i++) {
+      for (let i = 0; i < collection.length; i++) {
             if (collection[i].albumArtist === artist) {
                 found.push(collection[i]); 
-            } else 
-        return found;
+            }
     }
-    }
+      return found;
+}
 console.log('Find Usher album from collection:' , findByArtist('Usher'));
 console.log('Return an empty array:' , findByArtist('Train'));
 
